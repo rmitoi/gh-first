@@ -1,0 +1,9 @@
+name: Issues Workflow
+on:
+  issues:
+    types: [opened]
+    jobs:
+      context:
+        steps:
+          - name: Show context
+            run: echo "${{toJSON(github.event)}}"
