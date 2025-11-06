@@ -1,9 +1,10 @@
 name: Issues Workflow
 on:
   issues:
-    types: [opened]
-    jobs:
-      context:
-        steps:
-          - name: Show context
-            run: echo "${{toJSON(github.event)}}"
+    types: [ opened ]
+jobs:
+  context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show context
+        run: echo "${{toJSON(github.event)}}"
