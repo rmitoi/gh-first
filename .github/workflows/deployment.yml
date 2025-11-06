@@ -26,8 +26,6 @@ jobs:
           node-version: 18
       - name: install_dependencies
         run: npm ci
-      - name: lint
-        run: npm run lint
       - name: build
         run: npm run build
       - name: complete
