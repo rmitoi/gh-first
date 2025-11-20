@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - nam: Get and cached dependencies
+      - name: Get and cached dependencies
         uses: ./.github/actions/cached-deps
       - name: Test code
         id: run-tests
