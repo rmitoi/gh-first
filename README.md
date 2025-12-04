@@ -1,2 +1,1 @@
-![example workflow](https://github.com/github/docs/actions/workflows/deploy.yml/badge.svg?branch=master)
-
+[![Deployment](https://github.com/rmitoi/gh-first/actions/workflows/deploy.yml/badge.svg)](https://github.com/rmitoi/gh-first/actions/workflows/deploy.yml)
